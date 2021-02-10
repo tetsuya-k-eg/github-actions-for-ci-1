@@ -19,6 +19,7 @@ describe('Game', () => {
     game = new Game(p1, p2)
   })
 
+  /*
   describe('Game', () => {
     it('Initializes with two players', async () => {
       expect(game.p1).toBe('Salem')
@@ -41,6 +42,7 @@ describe('Game', () => {
       expect(new Game(p1, p2).player).toBe('Nate')
     })
   })
+  */
 
   describe('turn', () => {
     it("Inserts an 'X' into the top center", async () => {
